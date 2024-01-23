@@ -85,7 +85,7 @@ export default class RideScreen extends Component {
               style={styles.scanbutton}
               //onPress=() => {this.getCameraPermissions()}
               //onPress={() => this.getCameraPermissions()}
-              //onPress={() => this.getCameraPermissions}
+              onPress={() => this.getCameraPermissions}
               //onPress=() => this.getCameraPermissions()
             >
               <Text style={styles.scanbuttonText}>Digitalizar</Text>
